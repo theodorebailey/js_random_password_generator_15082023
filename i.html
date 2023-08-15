@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="s.css">
+</head>
+<body>
+
+<!-- create a container class, apply a heading seperated by a break and then a new div display with an input and image -->
+<div class="container">
+    <!-- container will contain the whole app -->
+    <!-- a title element with a line break and a span tag to provide unique styling -->
+    <h1>Generate a <br><span>random password</span></h1>
+    <!-- our display class element -->
+    <div class="display">
+        <!-- in our display element we want an input field to populate with generated password -->
+        <input type="text" id="password" placeholder="password">
+        <!-- we want an image, which we'll use as a copy element to copy the text created -->
+        <!-- our copy function will access the value in the input field and save to copy -->
+        <img src="images/copy.png" alt="copy_paste_icon" onclick="copyP()">
+    </div>
+    <!-- our button will generate the random password -->
+    <button onclick="randomPG()"><img src="images/generate.png" alt="">Generate password</button>
+</div>
+
+    <script src="js.js"></script>
+    
+</body>
+</html>

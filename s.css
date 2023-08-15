@@ -1,0 +1,78 @@
+/* set defaults for whole page: padding, margin, box-sizing and font-family */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+
+/* set background colour of body and text colour to white */
+body {
+    background: #002339;
+    color: #fff;
+}
+
+/* create a margin for app container, set width and max-width for larger screens */
+.container {
+    margin: 12%;
+    width: 90%;
+    max-width: 700px;
+}
+
+/* set display width to full, provide a top and bottom margin, set background color and change default text colour, display flex and align center with space between elements along with padding and rounded edges */
+.display {
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    background: #fff;
+    color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 26px 20px;
+    border-radius: 10px;
+
+}
+
+.container h1 {
+    font-weight: 500;
+    font-size: 45px;
+}
+
+.container h1 span {
+    color: #019f55;
+    border-bottom: 4px solid #019f55;
+    padding-bottom: 7px;
+}
+
+.display img{
+    width: 30px;
+    cursor: pointer;
+}
+
+.display input{
+    border: 0;
+    outline: 0;
+    font-size: 24px;
+}
+
+.container button img{
+    width: 28px;
+    margin-right: 10px;
+
+}
+
+.container button{
+    border: 0;
+    outline: 0;
+    background: #019f55;
+    color: #fff;
+    font-size: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 26px;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
